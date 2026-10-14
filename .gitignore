@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+
+# NAND dumps and keys are unique to one console (the keyvault and CPU key
+# can't be replaced) - keep them out of git.
+*.bin
+*.ecc
+cpukey*.txt
